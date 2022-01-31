@@ -22,14 +22,25 @@
     justify-content: center;
 }
 
-.main {}
+.main {
+    background-color: white;
+    display: flex;
+    height: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 .article {
     background-color: lightgray;
+    width: 180px;
+    height: 500px;
+    display: flex;
 }
 
 .article-title {
     background-color: gray;
+    height: 50px;
+    width: 180px;
 }
 
 .footer {
