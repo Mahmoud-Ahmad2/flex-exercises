@@ -22,21 +22,44 @@
     justify-content: center;
 }
 
-.main {}
+.main {
+    background-color: white;
+    display: flex;
+    height: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 .article {
     background-color: lightgray;
+    width: 180px;
+    height: 500px;
+    display: flex;
 }
 
 .article-title {
     background-color: gray;
+    height: 50px;
+    width: 180px;
 }
 
 .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .footer-item {
     color: white;
+    width: 300px;
+    height: 30px;
+    display: flex;
+    align-items: center;
     border: 1px solid white;
+    padding-left: 10px;
 }
